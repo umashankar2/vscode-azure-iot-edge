@@ -9,7 +9,7 @@ stages:
     steps:
     - template: vsix-package.yml
     - script: |
-        npm test --silent
+        npm test --silent |
       displayName: 'npm test'
       
     - script: |
